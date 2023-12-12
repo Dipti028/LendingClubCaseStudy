@@ -1,52 +1,35 @@
-# Project Name
-> Outline a brief description of your project.
-
+# Lending Club CaseStudy
+> Using EDA, to determine whether the applicant will be deafaulted or not, in order to prevent financial loss and gain insights from the Lending Club Loan data. Finding the driving factors that indicate a loan is likely to default.
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+- To identify patterns using EDA that indicate if the loan applicant is likely to default or not and identify the variables that are strong indicators of loan default.
+- Business Problem:
+  Lending loans to ‘risky’ applicants is the largest source of financial loss. In other words, borrowers who default cause the largest amount of loss to the lenders.To identify these risky loan applicants to reduce the financial loss using EDA is the aim of this case study.
+  
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Loan amount and interest rate were high for the borrower who has charged off. So, the loan
+amount and interest rate should be determined based on their annual income, loan grade
+and other aspects.
+- Loan applicants without home ownership, unverified loan source and with high loan
+amounts are more likely to default.
+- Borrowers with loan grades A and B are less likely to default.
+- The loan borrowers count for Debt Consolidation is high. So, if the dti value is high applicant is likely to default.
+- Applicants with 0 derogatory public records have a less chance of loan default.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python - version 3.10.12
+- NumPy - version 1.23.5
+- Pandas - version 1.5.3
+- Matplotlib - version 3.7.1
+- Seaborn - version 0.12.2
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
